@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <!--meta tags-->
+        <meta name="author" content="Daniel Chen">
+        <meta charset="utf-8">
+        <meta name="keywords" content="Pamela's Diner">
+        <meta name="description" content="Pamela's Diner's Website">
+
+        <!--links-->
+        <link rel="stylesheet" media="all" type="text/css" href="css/styles.css"/>
+
+        <script src="js/scripts.js" type="text/javascript"></script>
+
+        <title>Pamela's Diner</title>
+    </head>
+    <body>
+        <div id="container">
+            <div id="top_row">
+                <header>
+                    <a href="index.html">
+                        <h1>Pamela's Diner</h1>
+                    </a>
+                </header>
+                <nav>
+                    <a href="index.html">Home</a> |
+                    <a href="menu.html">Menu</a> |
+                    <a href="locations.html">Locations</a> |
+                    <a href="online_order.html">Order Online</a> |
+                    <a href="reviews.html">Reviews</a> |
+                    <a href="contact.html" class="selected">Contact</a>
+                </nav>
+            </div>
+            <div id="content">
+                <h2>Contact</h2>
+                <form onsubmit="return validate()" action="mailto:pam@pamelasdiner.com."> 
+                    <fieldset>
+                        <legend>Join Our Mailing List </legend>
+                        <label for= "uname"> Name: </label><br/>
+                        <input type = "text" id="uname" name= "uname" placeholder = "First Name Last Name" size = "20" minlength = "1" maxlength = "50" required><br/><br/>
+                        <label for="zipcode">Zipcode:</label><br/>
+                        <input type="text" id="zipcode" name="zipcode" placeholder="#####" size = "5" minlength ="5" maxlength = "5"><br/><br/>
+                        <label for="email">Email Address:</label><br/>
+                        <input type="email" id="email" name="email" placeholder="email@address.com" size ="20" minlength ="1" maxlength ="50" required><br/><br/>
+                        <label for="newsletter">Would you like to join our email newsletter?</label><br/>
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Yes, Please!</label><br/><br/>
+                        <input type="submit" value="Submit">
+                    </fieldset>
+                </form>
+                <br><br>
+
+                <div id="contact_info">
+                    <table>
+                        <tr>
+                            <th colspan="3">Contact Information:</th>
+                        </tr>
+                        <tr>
+                            <th>Address</th>
+                            <th>3703 Forbes Ave, Pittsburgh, PA 15213</th>
+                        </tr>
+                        <tr>
+                            <th>Phone Number</th>
+                            <th>(412) 281-6366</th>
+                        </tr>
+                        <tr>
+                            <th>Email</th>
+                            <th><a href="mailto:pam@pamelasdiner.com">pam@pamelasdiner.com</a></th>
+                        </tr>
+                        
+    
+                    </table>
+                </div>
+                
+            </div>
+            <div id="footer">
+                <img id="logo" src="images/logo.png"/>
+                <h3>©Pamela's Diner</h3>
+                <a target="_blank" alt="instagram" href="https://www.instagram.com/pamelasdiner/?hl=en"><img class="footer_icon" src="images/instagram.png"></a>
+                <a target="_blank" alt="facebook" href="https://www.facebook.com/pamelasdiner/"><img class="footer_icon" src="images/facebook.png"></a>
+                <a target="_blank" alt="youtube" href="https://www.youtube.com/watch?v=Rb0Dw2t-nTE "><img class="footer_icon" src="images/youtube.png"></a>
+                <a target="_blank" alt="yelp" href="https://www.yelp.com/biz/p-and-gs-pamelas-diner-pittsburgh-3"><img class="footer_icon" src="images/yelp.png"></a>
+            </div>
+        </div>
+    </body>
+</html>

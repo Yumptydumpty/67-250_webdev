@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <!--meta tags-->
+        <meta name="author" content="Daniel Chen">
+        <meta charset="utf-8">
+        <meta name="keywords" content="Pamela's Diner">
+        <meta name="description" content="Pamela's Diner's Website">
+
+        <!--links-->
+        <link rel="stylesheet" media="all" type="text/css" href="css/styles.css"/>
+        <link rel="stylesheet" media="all" type="text/css" href="css/jquery-ui.min.css"/>
+        <link rel="stylesheet" media="all" type="text/css" href="css/jquery.lightbox.css"/>
+
+        <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
+        <script src="js/jquery-ui.min.js" type="text/javascript"></script>
+        <script src="js/jquery.lightbox.min.js" type="text/javascript"></script>
+
+
+        <script type="text/Javascript">
+            $(function() {
+                $('#gallery a').lightBox();
+            });
+        </script>
+        
+
+        <title>Pamela's Diner</title>
+    </head>
+    <body>
+        <div id="container">
+            <div id="top_row">
+                <header>
+                    <a href="index.html">
+                        <h1>Pamela's Diner</h1>
+                    </a>
+                </header>
+                <nav>
+                    <a href="index.html">Home</a> |
+                    <a href="menu.html" class="selected">Menu</a> |
+                    <a href="locations.html">Locations</a> |
+                    <a href="online_order.html">Order Online</a> |
+                    <a href="reviews.html">Reviews</a> |
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+            <div id="content">
+                <h2>Menu</h2>
+                <div id="gallery">
+                    <!--All images in gallery obtained from istockphoto.com-->
+                    <div id="galleryThumbnail"><div id="thmbnlShadow1">
+                        <a href="images/menu/Omelette.jpg" title="Omelette">
+                        <img src="images/menu/Omelette.jpg" alt="Omlette" width="100%"></a>
+                    </div></div>
+                    <div id="galleryThumbnail2"><div id="thmbnlShadow2">
+                        <a href="images/menu/Pancakes.jpg" title="Pancake">
+                        <img src="images/menu/Pancakes.jpg" alt="Pancake" width="100%"></a>
+                    </div></div>
+                    <div id="galleryThumbnail3"><div id="thmbnlShadow3">
+                        <a href="images/menu/Waffle.jpg" title="Waffle">
+                        <img src="images/menu/Waffle.jpg" alt="Waffle" width="100%"></a>
+                    </div></div>
+                    <div id="galleryThumbnail4"><div id="thmbnlShadow4">
+                        <a href="images/menu/Crepe.jpg" title="Crepe">
+                        <img src="images/menu/Crepe.jpg" alt="Crepe" width="100%"></a>
+                    </div></div>
+                </div>
+
+                <div id="menu-top">
+                    <div id="half-left">
+                        <h4>Omelettes</h4>
+                        <p class="menu-item">TEX-MEX OMELET</p>
+                        <p class="ingredients">Chorizo sausage,
+                            cheddar cheese and salsa, topped with guacamole &
+                            sour cream, served with Lyonniase potatoes & toast
+                        </p>
+
+                        <p class="menu-item">CHEESE OMELET</p>
+                        <p class="ingredients">
+                            Choice of American, Swiss or cheddar
+                        </p>
+
+                        <p class="menu-item">MEAT & CHEESE OMELET</p>
+                        <p class="ingredients">
+                            Choice of bacon, sausage or ham
+                        </p>
+                        <br>
+                        <h4>Egg Combos</h4>
+                        <p class="menu-item">GAIL’S FAVORITE EGGS</p>
+                        <p class="ingredients">
+                            Lightly
+                            scrambled, topped with cream cheese & scallions,
+                            served with Lyonnaise potatoes & toast 
+                        </p>
+                        <p class="menu-item">MEAT & EGGS</p>
+                        <p class="ingredients">
+                            2 eggs any style with your
+                            choice of double smoked, thick-slice bacon, handcarved ham, sausage links or turkey sausage patties
+                        </p>
+                        <p class="menu-item">EGG & CHEESE SANDWICH</p>
+                        <p class="ingredients">With bacon, sausage or ham
+                            Served on Italian, wheat, rye, English muffin or bage</p>
+                    </div>
+                    <div id="half-right">
+                        <h4>Hotcakes, French Toast & Waffles</h4>
+                        <p class="menu-item">PAMELA’S FAMOUS CREPE-STYLE HOTCAKES</p>
+                        <p class="ingredients">Choice of meat – double smoked, thick-sliced bacon,
+                            hand-carved ham, sausage links or turkey sausage patties
+                        </p>
+
+                        <p class="menu-item">CREPE-STYLE SHORT STACK HOTCAKES</p>
+                        <p class="ingredients">
+                            Choice of meat – double smoked, thick-sliced bacon,
+                            hand-carved ham, sausage links or turkey sausage patties
+                        </p>
+                        <p class="menu-item">CALIFORNIA FRENCH TOAST</p>
+                        <p class="ingredients">
+                            Home-style whole wheat raisin bread dunked in
+                            cinnamon-vanilla egg batter
+                            Topped with walnuts, chocolate chips, bananas,
+                            strawberries or blueberries extra
+                        </p>
+                        <p class="menu-item">CROISSANT FRENCH TOAST</p>
+                        <p class="ingredients">
+                            Croissants soaked in cinnamon-vanilla egg batter &
+                            topped with caramel sauce & walnuts
+                        </p>
+                        <p class="menu-item">BELGIAN WAFFLE</p>
+                        <p class="ingredients">
+                            With walnuts, chocolate chips, bananas, strawberries or
+                            blueberries extra
+                        </p>
+
+                        <p class="menu-item">STRAWBERRY HOTCAKES</p>
+                        <p class="ingredients">
+                            Stuffed with fresh
+                            strawberries, brown sugar, sour cream & topped with
+                            whipped cream
+                        </p>
+                    </div>
+                </div>
+                <div id="menu-bottom">
+                    <h4>Lunch</h4>
+                </div>
+                <div id="menu-items-bottom">
+                    <div>
+                        <p class="menu-item">DINER BURGER</p>
+                        <p class="ingredients">
+                            Burger topped with fried jalapeno, onion straws,<br> lettuce, tomato, cheddar,
+                            ketchup<br> & mayo on a Kaiser roll 
+                        </p>
+                    </div>
+                    <div>
+                        <p class="menu-item">BUFFALO CHICKEN WRAP</p>
+                        <p class="ingredients">
+                            Chicken tenders
+                            dunked in a buffalo sauce topped<br> with lettuce &
+                            ranch dressing on a grilled pita 
+                        </p>
+                    </div>
+                    <div>
+                        <p class="menu-item">GREEK WRAP</p>
+                        <p class="ingredients">
+                            Grilled marinated chicken
+                            breast, diced tomatoes, <br>feta cheese & garlic
+                            spinach on a grilled pita 
+                        </p>
+                    </div>
+                    
+                    
+                    
+                    
+                </div>
+
+            </div>
+            <div id="footer">
+                <img id="logo" src="images/logo.png"/>
+                <h3>©Pamela's Diner</h3>
+                <a target="_blank" alt="instagram" href="https://www.instagram.com/pamelasdiner/?hl=en"><img class="footer_icon" src="images/instagram.png"></a>
+                <a target="_blank" alt="facebook" href="https://www.facebook.com/pamelasdiner/"><img class="footer_icon" src="images/facebook.png"></a>
+                <a target="_blank" alt="youtube" href="https://www.youtube.com/watch?v=Rb0Dw2t-nTE "><img class="footer_icon" src="images/youtube.png"></a>
+                <a target="_blank" alt="yelp" href="https://www.yelp.com/biz/p-and-gs-pamelas-diner-pittsburgh-3"><img class="footer_icon" src="images/yelp.png"></a>
+            </div>
+        </div>
+    </body>
+</html>
